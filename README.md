@@ -1,6 +1,6 @@
 # PowerBI Project HR Employees Data Insight With CSV Dataset
 
-[Follow me on LinkedIn](https://www.linkedin.com/in/abhishekmishra3/) &nbsp;&nbsp; | &nbsp;&nbsp;  [Github Page Link](https://abhishekmishra8.github.io/Power-BI-Project-Bank-Domain/)
+[Follow me on LinkedIn](https://www.linkedin.com/in/abhishekmishra3/) &nbsp;&nbsp; | &nbsp;&nbsp;  [Github Page Link](https://abhishekmishra8.github.io/PowerBI_Project_HR_Employees/)
 
 Project Report Sreenshots shown below:
 
