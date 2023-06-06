@@ -21,11 +21,11 @@ Project Report Sreenshots shown below:
 2. Create the Shapes for background of Visual with some Cosmetic changes. 
 
 3. Create new table for all new measures. Home -> Enter Data. Create New Measures here.
-- Total Exmployees = COUNTROWS('HR Analytics Data')
-- Male = CALCULATE([Total Exmployees],'HR Analytics Data'[Gender]="Male")
-- Female = CALCULATE([Total Exmployees],'HR Analytics Data'[Gender]="Female")
-- % MALE = DIVIDE([Male],[Total Exmployees],0)
-- % FEMALE = DIVIDE([Female],[Total Exmployees],0)
+- `Total Exmployees = COUNTROWS('HR Analytics Data')`
+- `Male = CALCULATE([Total Exmployees],'HR Analytics Data'[Gender]="Male")`
+- `Female = CALCULATE([Total Exmployees],'HR Analytics Data'[Gender]="Female")`
+- `% MALE = DIVIDE([Male],[Total Exmployees],0)`
+- `% FEMALE = DIVIDE([Female],[Total Exmployees],0)`
 
 4. Create Cards and place it in places. Total Emp, Male Female with percentage data.
 - Insert Male Female image icon.
@@ -36,10 +36,10 @@ Project Report Sreenshots shown below:
 <img src="Input Files/Images/Add Conditional Column Promotion Status.JPG" width="400" height="250" />
 
 6. Create Dax Measures of Percentage and Count of Employee Promotion data.
-- Due for Promotion = CALCULATE([Total Exmployees], 'HR Analytics Data'[Promotion Status]="due for promotion")
-- Not due for promotion = CALCULATE([Total Exmployees], 'HR Analytics Data'[Promotion Status]="Not Due")
-- % Due for promotion = DIVIDE([Due for Promotion], [Total Exmployees],0)
-- % Not Due = DIVIDE([Not due for promotion], [Total Exmployees],0)
+- `Due for Promotion = CALCULATE([Total Exmployees], 'HR Analytics Data'[Promotion Status]="due for promotion")`
+- `Not due for promotion = CALCULATE([Total Exmployees], 'HR Analytics Data'[Promotion Status]="Not Due")`
+- `% Due for promotion = DIVIDE([Due for Promotion], [Total Exmployees],0)`
+- `% Not Due = DIVIDE([Not due for promotion], [Total Exmployees],0)`
 
 7. Create Cards to show Employee Promotion data with formattings applied.
 
@@ -59,10 +59,10 @@ Project Report Sreenshots shown below:
 - Create new column in Power Query. Conditional coloumn -> YearsAtCompany - is greater than or equal to - 18 - Output will be retrenched. Else - On Service.
 
 12. Create Dax Measures to get count and percentage of retrenchment data.
-- On Service = CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="On Service")
-- Will be retrenched = IF(ISBLANK(CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="Will be retrenched")),0,CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="Will be retrenched"))
-- % On service = DIVIDE([On Service], [Total Exmployees], 0)
-- % will be retrenched = DIVIDE([Will be retrenched], [Total Exmployees], 0)
+- `On Service = CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="On Service")`
+- `Will be retrenched = IF(ISBLANK(CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="Will be retrenched")),0,CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="Will be retrenched"))`
+- `% On service = DIVIDE([On Service], [Total Exmployees], 0)`
+- `% will be retrenched = DIVIDE([Will be retrenched], [Total Exmployees], 0)`
 
 13. Create cards to display the retrenchment data.  
 <img src="Input Files/Images/Retrenchment data on Cards Visual.png" width="400" height="250" />
