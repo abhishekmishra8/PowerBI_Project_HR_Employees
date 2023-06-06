@@ -15,9 +15,8 @@ Project Report Sreenshots shown below:
 -Select Tab -> Advance option Columns -> ok
 -Use First Row as Headers
 - Applied Steps : You can time travel to see what happened in those steps and re-edit them if needed.  
-<img src="Input Files/Images/Applied Steps in Power Query.JPG" width="400" height="250" />
 - Load it in Power BI : Close & Apply.  
-<img src="Input Files/Images/Importing Data from CVS File.JPG" width="400" height="250" />
+<img src="Input Files/Images/Importing Data from CVS File.JPG" width="400" height="250" />  &nbsp;&nbsp;  <img src="Input Files/Images/Applied Steps in Power Query.JPG" width="400" height="250" />
 
 2. Create the Shapes for background of Visual with some Cosmetic changes. 
 
