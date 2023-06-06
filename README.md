@@ -54,22 +54,18 @@ Project Report Sreenshots shown below:
 10. Create Column Chart to display Job Level Views.  
 <img src="Input Files/Images/Column Chart Job Level View.png" width="400" height="250" />
 11. Retrenchment Scenario. Company will layoff the employees who spent 18+ years in organization and rest will stay.
-- Create new column in Power Query. Conditional coloumn -> YearsAtCompany - is greater than or equal to - 18 - Output will be retrenched. Else - On Service.
-
+- Create new column in Power Query. Conditional coloumn -> YearsAtCompany - is greater than or equal to - 18 - Output will be retrenched. Else - On Service.  
 12. Create Dax Measures to get count and percentage of retrenchment data.
 - `On Service = CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="On Service")`
 - `Will be retrenched = IF(ISBLANK(CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="Will be retrenched")),0,CALCULATE([Total Exmployees], 'HR Analytics Data'[Retrenchment Status]="Will be retrenched"))`
 - `% On service = DIVIDE([On Service], [Total Exmployees], 0)`
-- `% will be retrenched = DIVIDE([Will be retrenched], [Total Exmployees], 0)`
-
+- `% will be retrenched = DIVIDE([Will be retrenched], [Total Exmployees], 0)`  
 13. Create cards to display the retrenchment data.  
-<img src="Input Files/Images/Retrenchment data on Cards Visual.png" width="400" height="250" />
-
+<img src="Input Files/Images/Retrenchment data on Cards Visual.png" width="400" height="250" />  
 14. Employees staying very far, very close, near to the office. Create new column in Power Query.
 - Add Contional column -> DistanceFromHome - greater than Equal to - 20 = Very Far ; 10 = Close ; Else = Very Close
 - Display this data in Donut chart against Total number of Employees.  
-<img src="Input Files/Images/Donut Chart Emplyees Far from office.png" width="400" height="250" />
-
+<img src="Input Files/Images/Donut Chart Emplyees Far from office.png" width="400" height="250" />  
 15. Import new table of Employees available in CSV file. Transform in Power Query.
 - Go to HR Analytics Data -> Home -> Merge Queries -> locate column EmployeeNumber -> Select table HR Employee Data -> select column EmployeeNumber -> Ok
 - Set relation of table by checking EmplyeeName	as shown below.Close and Apply.    
