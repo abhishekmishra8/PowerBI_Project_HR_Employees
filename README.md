@@ -50,13 +50,9 @@ Project Report Sreenshots shown below:
 
 9. Create Bar Chart to show Service Years Visual against Total no. of Employess.
 - add new more columns in Tooltips to show additional details of employess.  
-
 <img src="Input Files/Images/Add Tooltip in BarChart.png" width="400" height="250" />
-
 10. Create Column Chart to display Job Level Views.  
-
 <img src="Input Files/Images/Column Chart Job Level View.png" width="400" height="250" />
-
 11. Retrenchment Scenario. Company will layoff the employees who spent 18+ years in organization and rest will stay.
 - Create new column in Power Query. Conditional coloumn -> YearsAtCompany - is greater than or equal to - 18 - Output will be retrenched. Else - On Service.
 
