@@ -11,10 +11,11 @@ Project Report Sreenshots shown below:
 
 ## key Learning are as follow:-
 
-1. Import CSV File -> Transform in Power Query -> Split Column by Delimiter.
+1. Import CSV File -> Transform in Power Query -> Split Column by Delimiter.  
 -Select Tab -> Advance option Columns -> ok
 -Use First Row as Headers
-- Applied Steps : You can time travel to see what happened in those stpes and re-edit them if needed.
+- Applied Steps : You can time travel to see what happened in those steps and re-edit them if needed.  
+<img src="Input Files/Images/Applied Steps in Power Query.JPG" width="400" height="250" />
 - Load it in Power BI : Close & Apply.  
 <img src="Input Files/Images/Importing Data from CVS File.JPG" width="400" height="250" />
 
@@ -30,7 +31,7 @@ Project Report Sreenshots shown below:
 4. Create Cards and place it in places. Total Emp, Male Female with percentage data.
 - Insert Male Female image icon.
 
-5. Add new contional column in Power Query. 
+5. Add new conditional column in Power Query. 
 - Promotion Status. Whoever had never been promoted since last 10 yrs is now due for promotion.
 - Add Column -> Add Contional Column -> Close and Apply  
 <img src="Input Files/Images/Add Conditional Column Promotion Status.JPG" width="400" height="250" />
@@ -50,12 +51,14 @@ Project Report Sreenshots shown below:
 
 9. Create Bar Chart to show Service Years Visual against Total no. of Employess.
 - add new more columns in Tooltips to show additional details of employess.  
+
 <img src="Input Files/Images/Add Tooltip in BarChart.png" width="400" height="250" />
 
 10. Create Column Chart to display Job Level Views.  
+
 <img src="Input Files/Images/Column Chart Job Level View.png" width="400" height="250" />
 
-11. Retrenchment Scenario. Company will layoff to employees who spent 18+ years in organization and rest will stay.
+11. Retrenchment Scenario. Company will layoff the employees who spent 18+ years in organization and rest will stay.
 - Create new column in Power Query. Conditional coloumn -> YearsAtCompany - is greater than or equal to - 18 - Output will be retrenched. Else - On Service.
 
 12. Create Dax Measures to get count and percentage of retrenchment data.
