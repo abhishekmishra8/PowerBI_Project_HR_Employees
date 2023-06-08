@@ -9,8 +9,9 @@ controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" sty
 </video>  
 
 
-<video src="Input Files/Video/HR Employees Report Video.mp4" 
-controls="autoplay" muted="muted" class="d-block rounded-bottom-2 width-fit" style="width="320" height="240"">
+<video width="1280" height="720" controls autoplay muted loop>
+<source src="Input Files/Video/HR Employees Report Video.mp4" type="video/mp4">
+Your browser does not support the video tag.
 </video>
 
 
