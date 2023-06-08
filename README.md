@@ -7,7 +7,6 @@ Project Report Video shown below:
 <source src="Input Files/Video/HR Employees Report Video.mp4" type="video/mp4">
 click the Github Page Link to see the video
 </video>  
-
 Dashboard Screenshots as follow:-  
 
 <img src="Input Files/Images/Power BI Report HR Employees - Home.JPG" width="400" height="250" /> &nbsp;&nbsp; <img src="Input Files/Images/Power BI Report HR Employees - Details.JPG" width="400" height="250" />  
@@ -22,7 +21,7 @@ Dashboard Screenshots as follow:-
 -Use First Row as Headers
 - Applied Steps : You can time travel to see what happened in those steps and re-edit them if needed.  
 - Load it in Power BI : Close & Apply.  
-<img src="Input Files/Images/Importing Data from CVS File.JPG" width="400" height="250" />  &nbsp;&nbsp;  <img src="Input Files/Images/Applied Steps in Power Query.JPG" width="400" height="250" />
+<img src="Input Files/Images/Importing Data from CVS File.JPG" width="400" height="250" />  &nbsp;&nbsp;  <img src="Input Files/Images/Applied Steps in Power Query.JPG" width="350" height="250" />
 
 2. Create the Shapes for background of Visual with some Cosmetic changes. 
 
@@ -81,7 +80,7 @@ Dashboard Screenshots as follow:-
 15. Import new table of Employees available in CSV file. Transform in Power Query.
 - Go to HR Analytics Data -> Home -> Merge Queries -> locate column EmployeeNumber -> Select table HR Employee Data -> select column EmployeeNumber -> Ok
 - Set relation of table by checking EmplyeeName	as shown below.Close and Apply.    
-<img src="Input Files/Images/Relationship HR Employee Data.JPG" width="400" height="250" /> &nbsp;&nbsp; <img src="Input Files/Images/After Result of Relation Set.JPG" width="400" height="250" />
+<img src="Input Files/Images/Relationship HR Employee Data.JPG" width="400" height="250" /> &nbsp;&nbsp; <img src="Input Files/Images/After Result of Relation Set.JPG" width="350" height="250" />
 
 16. Create new Column in Power Query of Job Satisfaction and performance status using Conditional Column.
 
