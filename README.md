@@ -5,7 +5,7 @@
 Project Report Sreenshots shown below:
 
 <video src="Input Files/Video/HR Employees Report Video.mp4" 
-controls="controls" style="max-width: 730px;">
+controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-width: 730px;">
 </video>
 
 <img src="Input Files/Images/Power BI Report HR Employees - Home.JPG" width="400" height="250" /> &nbsp;&nbsp; <img src="Input Files/Images/Power BI Report HR Employees - Details.JPG" width="400" height="250" />
