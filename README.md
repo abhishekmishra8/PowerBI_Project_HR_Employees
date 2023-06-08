@@ -5,7 +5,7 @@
 Project Report Video shown below:  
 <video width="660" height="360" controls autoplay muted loop>
 <source src="Input Files/Video/HR Employees Report Video.mp4" type="video/mp4">
-Your browser does not support the video tag.
+click the Github Page Link to see the video
 </video>  
 
 Dashboard Screenshots as follow:-  
