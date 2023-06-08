@@ -2,20 +2,16 @@
 
 [Follow me on LinkedIn](https://www.linkedin.com/in/abhishekmishra3/) &nbsp;&nbsp; | &nbsp;&nbsp;  [Github Repository Link](https://github.com/abhishekmishra8/PowerBI_Project_HR_Employees) &nbsp;&nbsp; | &nbsp;&nbsp; [Github Page Link](https://abhishekmishra8.github.io/PowerBI_Project_HR_Employees/)
 
-Project Report Video shown below:
+Project Report Video shown below:  
 
-<video src="Input Files/Video/HR Employees Report Video.mp4" 
-controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-width: 730px;">
-</video>  
-
-
-<video width="1280" height="720" controls autoplay muted loop>
+<video width="360" height="360" controls autoplay muted loop>
 <source src="Input Files/Video/HR Employees Report Video.mp4" type="video/mp4">
 Your browser does not support the video tag.
-</video>
+</video>  
 
+Dashboard Screenshots as follow:-  
 
-<img src="Input Files/Images/Power BI Report HR Employees - Home.JPG" width="400" height="250" /> &nbsp;&nbsp; <img src="Input Files/Images/Power BI Report HR Employees - Details.JPG" width="400" height="250" />
+<img src="Input Files/Images/Power BI Report HR Employees - Home.JPG" width="400" height="250" /> &nbsp;&nbsp; <img src="Input Files/Images/Power BI Report HR Employees - Details.JPG" width="400" height="250" />  
 
 
 
