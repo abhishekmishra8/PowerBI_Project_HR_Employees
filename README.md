@@ -2,11 +2,17 @@
 
 [Follow me on LinkedIn](https://www.linkedin.com/in/abhishekmishra3/) &nbsp;&nbsp; | &nbsp;&nbsp;  [Github Repository Link](https://github.com/abhishekmishra8/PowerBI_Project_HR_Employees) &nbsp;&nbsp; | &nbsp;&nbsp; [Github Page Link](https://abhishekmishra8.github.io/PowerBI_Project_HR_Employees/)
 
-Project Report Sreenshots shown below:
+Project Report Video shown below:
 
 <video src="Input Files/Video/HR Employees Report Video.mp4" 
 controls="controls" muted="muted" class="d-block rounded-bottom-2 width-fit" style="max-width: 730px;">
+</video>  
+
+
+<video src="Input Files/Video/HR Employees Report Video.mp4" 
+controls="autoplay" muted="muted" class="d-block rounded-bottom-2 width-fit" style="width="320" height="240"">
 </video>
+
 
 <img src="Input Files/Images/Power BI Report HR Employees - Home.JPG" width="400" height="250" /> &nbsp;&nbsp; <img src="Input Files/Images/Power BI Report HR Employees - Details.JPG" width="400" height="250" />
 
